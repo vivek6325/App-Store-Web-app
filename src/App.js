@@ -1,7 +1,19 @@
-import AppStore from './components/AppStore'
+// import AppStore from './components/AppStore'
 
-import './App.css'
+// import './App.css'
 
-const App = () => <AppStore />
+// const App = () => <AppStore />
 
-export default App
+// export default App
+
+import { HashRouter, Routes, Route } from 'react-router-dom'
+
+function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </HashRouter>
+  )
+}
