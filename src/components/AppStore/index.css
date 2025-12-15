@@ -1,0 +1,59 @@
+.bg-container {
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  background-size: cover;
+}
+.AppStore-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Bree Serif;
+}
+
+.heading {
+  font-size: xx-large;
+  font-family: Bree Serif;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  /* background-color: #f1f5f9; */
+  border: 2px solid #1e293b;
+  border-radius: 6px;
+  padding: 6px 12px;
+  width: 60%;
+  max-width: 280px;
+}
+
+.search-input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin-top: 32px;
+  list-style-type: none;
+  width: 80%;
+}
