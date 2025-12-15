@@ -1,4 +1,6 @@
-In this project, let's build an **App Store** by applying the concepts we have learned till now.
+# 📱 App Store
+
+A simple **App Store** application built using **React JS**, where users can browse apps by category and search for apps dynamically.
 
 ### Refer to the image below:
 
@@ -8,15 +10,6 @@ In this project, let's build an **App Store** by applying the concepts we have l
 </div>
 <br/>
 
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/app-store-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/app-store-lg-output-v2.png)
-
-</details>
 
 ### Set Up Instructions
 
@@ -26,6 +19,32 @@ In this project, let's build an **App Store** by applying the concepts we have l
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
 </details>
+
+
+## ✨ Features
+
+- 🔍 **Search Functionality**
+  - Filter apps based on user search input
+- 🗂️ **Category Tabs**
+  - Social
+  - Games
+  - News
+  - Food
+- 📱 **Responsive UI**
+- ⚛️ Built using **React Functional Components**
+- 🧠 State management using `useState`
+
+---
+
+## 🛠️ Tech Stack
+
+- **React JS**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+---
+<!--
 
 ### Completion Instructions
 
@@ -146,4 +165,5 @@ Use these files to complete the implementation:
 > - All components you implement should go in the `src/components` directory.
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+ > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+-->
